@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resetpass">
+
+    <ImageView
+        android:layout_width="293dp"
+        android:layout_height="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/z" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="161dp"
+        android:text="Khôi phục tài khoản"
+        android:textSize="25dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:text="Điều này giúp bạn lấy lại mật khẩu truy cập"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Nhập Email cần khôi phục mật khẩu" />
+
+    <Button
+        android:id="@+id/tieptheo"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="212dp"
+        android:background="#686cb9"
+        android:text="Gửi"
+        android:textColor="#ffff"
+        android:textSize="15dp" />
+
+    <ProgressBar
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

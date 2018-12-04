@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="293dp"
+        android:layout_height="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/z" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:text="Đăng nhập"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="188dp"
+        android:text="Sử dụng địa chỉ email của bạn"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="325dp"
+        android:ems="10"
+        android:hint="Email hoặc điện thoại"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="260dp"
+        android:text="Không phải thiết bị của bạn? Hãy sử dụng chế độ
+Ẩn danh để đăng nhập một cách riêng tư"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/timhieuthem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="225dp"
+        android:clickable="true"
+        android:text="Tìm hiểu thêm"
+        android:textColor="#686cb9"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="176dp"
+        android:clickable="true"
+        android:text="Tạo tài khoản"
+        android:textColor="#686cb9"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/tieptheo"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="198dp"
+        android:background="#686cb9"
+        android:text="Tiếp theo"
+        android:textColor="#ffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:text="      Ứng dụng demo sử dụng Google Firebase Authentication"
+        android:textColor="#9c9494"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

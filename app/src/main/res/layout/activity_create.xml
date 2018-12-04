@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create">
+
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/z" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/t_o_t_i_kho_n"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ho"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="Họ"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ten"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="190dp"
+        android:ems="10"
+        android:hint="Tên"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/acc"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="Email người dùng"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ho"
+        android:layout_alignLeft="@+id/ho"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="276dp"
+        android:text="Bạn có thể sửu dụng chữ cái, số và dấu chấm" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="219dp"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ho"
+        android:layout_alignLeft="@+id/ho"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="196dp"
+        android:text="Nên kếp hợp chữ cái, số và biểu tượng" />
+
+
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="138dp"
+        android:ems="10"
+        android:hint="Xác nhận lại mật khẩu"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/tieptheo"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="77dp"
+        android:background="#686cb9"
+        android:text="Tiếp theo"
+        android:textColor="#ffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tieptheo"
+        android:layout_alignStart="@+id/ho"
+        android:layout_alignLeft="@+id/ho"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:text="Đăng nhập"
+        android:textSize="17dp"
+        android:clickable="true"
+        android:textColor="#686cb9" />
+
+    <ProgressBar
+        android:id="@+id/proc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

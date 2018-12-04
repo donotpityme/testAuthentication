@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "67543469251",
+    "firebase_url": "https://graceful-system-220308.firebaseio.com",
+    "project_id": "graceful-system-220308",
+    "storage_bucket": "graceful-system-220308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67543469251:android:f398ce2885b90f9f",
+        "android_client_info": {
+          "package_name": "com.example.administrator.tutorial16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67543469251-ikqkiud66vf7u2frisrnr5talfvdjg4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.administrator.tutorial16",
+            "certificate_hash": "70f2cb63d96bd48cdf86d263d3e20840e7ceb2d4"
+          }
+        },
+        {
+          "client_id": "67543469251-lvsujg9fphtmohgn2ua8iu0ub5hq65jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzIGAAhFBGGIM7jzmoN1FeH2KVpAojLVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67543469251-lvsujg9fphtmohgn2ua8iu0ub5hq65jq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67543469251:android:880f3c20fd519b52",
+        "android_client_info": {
+          "package_name": "com.example.administrator.tutorial17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67543469251-oc52mhj5kn9444it2j8h6v5lph9lf92n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.administrator.tutorial17",
+            "certificate_hash": "70f2cb63d96bd48cdf86d263d3e20840e7ceb2d4"
+          }
+        },
+        {
+          "client_id": "67543469251-lvsujg9fphtmohgn2ua8iu0ub5hq65jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzIGAAhFBGGIM7jzmoN1FeH2KVpAojLVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67543469251-lvsujg9fphtmohgn2ua8iu0ub5hq65jq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
